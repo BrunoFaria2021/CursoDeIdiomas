@@ -226,6 +226,19 @@
         "runtime": {
           "bin/placeholder/CursosDeIdiomas.Domain.dll": {}
         }
+      },
+      "CursosDeIdiomas.Domain.core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CursosDeIdiomas.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CursosDeIdiomas.Domain.core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CursosDeIdiomas.Domain.core.dll": {}
+        }
       }
     }
   },
@@ -569,11 +582,17 @@
       "type": "project",
       "path": "../CursosDeIdiomas.Domain/CursosDeIdiomas.Domain.csproj",
       "msbuildProject": "../CursosDeIdiomas.Domain/CursosDeIdiomas.Domain.csproj"
+    },
+    "CursosDeIdiomas.Domain.core/1.0.0": {
+      "type": "project",
+      "path": "../CursosDeIdiomas.Domain.core/CursosDeIdiomas.Domain.core.csproj",
+      "msbuildProject": "../CursosDeIdiomas.Domain.core/CursosDeIdiomas.Domain.core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "CursosDeIdiomas.Domain >= 1.0.0",
+      "CursosDeIdiomas.Domain.core >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0"
     ]
   },
@@ -610,6 +629,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\CursoDeIdiomas\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\CursosDeIdiomas.Domain.core.csproj": {
+              "projectPath": "D:\\CursoDeIdiomas\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\CursosDeIdiomas.Domain.core.csproj"
+            },
             "D:\\CursoDeIdiomas\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain\\CursosDeIdiomas.Domain.csproj": {
               "projectPath": "D:\\CursoDeIdiomas\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain\\CursosDeIdiomas.Domain.csproj"
             }

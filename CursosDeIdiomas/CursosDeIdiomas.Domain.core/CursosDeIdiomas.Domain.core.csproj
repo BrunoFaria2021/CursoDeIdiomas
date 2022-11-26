@@ -7,8 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\Repositories\" />
     <Folder Include="Interfaces\Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CursosDeIdiomas.Domain\CursosDeIdiomas.Domain.csproj" />
   </ItemGroup>
 
 </Project>
