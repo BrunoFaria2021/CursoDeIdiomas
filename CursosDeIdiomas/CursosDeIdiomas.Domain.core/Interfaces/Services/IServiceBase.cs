@@ -1,6 +1,6 @@
 ﻿namespace CursosDeIdiomas.Domain.core.Interfaces.Services
 {
-    internal interface IServiceBase<TEntity> where TEntity : class
+    public interface IServiceBase<TEntity> where TEntity : class
     {
         void Add(TEntity obj);
         void Update(TEntity obj);
