@@ -1,0 +1,17 @@
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.csproj.AssemblyReference.cache
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.AssemblyInfoInputs.cache
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.AssemblyInfo.cs
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.csproj.CoreCompileInputs.cache
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Infra.deps.json
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Infra.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Infra.pdb
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Domain.core.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Domain.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Domain.core.pdb
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Domain.pdb
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.csproj.CopyComplete
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\refint\CursosDeIdiomas.Infra.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.pdb
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\ref\CursosDeIdiomas.Infra.dll

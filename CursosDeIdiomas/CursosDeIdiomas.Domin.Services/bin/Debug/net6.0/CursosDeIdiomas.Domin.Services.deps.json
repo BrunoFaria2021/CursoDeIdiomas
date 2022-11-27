@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CursosDeIdiomas.Domin.Services/1.0.0": {
+        "dependencies": {
+          "CursosDeIdiomas.Domain.core": "1.0.0"
+        },
+        "runtime": {
+          "CursosDeIdiomas.Domin.Services.dll": {}
+        }
+      },
+      "CursosDeIdiomas.Domain/1.0.0": {
+        "runtime": {
+          "CursosDeIdiomas.Domain.dll": {}
+        }
+      },
+      "CursosDeIdiomas.Domain.core/1.0.0": {
+        "dependencies": {
+          "CursosDeIdiomas.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CursosDeIdiomas.Domain.core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CursosDeIdiomas.Domin.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CursosDeIdiomas.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CursosDeIdiomas.Domain.core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

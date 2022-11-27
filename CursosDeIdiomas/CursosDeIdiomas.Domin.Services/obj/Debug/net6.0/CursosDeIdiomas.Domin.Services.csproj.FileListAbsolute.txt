@@ -1,0 +1,17 @@
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domin.Services\obj\Debug\net6.0\CursosDeIdiomas.Domin.Services.csproj.AssemblyReference.cache
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domin.Services\obj\Debug\net6.0\CursosDeIdiomas.Domin.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domin.Services\obj\Debug\net6.0\CursosDeIdiomas.Domin.Services.AssemblyInfoInputs.cache
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domin.Services\obj\Debug\net6.0\CursosDeIdiomas.Domin.Services.AssemblyInfo.cs
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domin.Services\obj\Debug\net6.0\CursosDeIdiomas.Domin.Services.csproj.CoreCompileInputs.cache
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domin.Services\bin\Debug\net6.0\CursosDeIdiomas.Domin.Services.deps.json
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domin.Services\bin\Debug\net6.0\CursosDeIdiomas.Domin.Services.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domin.Services\bin\Debug\net6.0\CursosDeIdiomas.Domin.Services.pdb
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domin.Services\bin\Debug\net6.0\CursosDeIdiomas.Domain.core.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domin.Services\bin\Debug\net6.0\CursosDeIdiomas.Domain.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domin.Services\bin\Debug\net6.0\CursosDeIdiomas.Domain.core.pdb
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domin.Services\bin\Debug\net6.0\CursosDeIdiomas.Domain.pdb
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domin.Services\obj\Debug\net6.0\CursosDeIdiomas.Domin.Services.csproj.CopyComplete
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domin.Services\obj\Debug\net6.0\CursosDeIdiomas.Domin.Services.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domin.Services\obj\Debug\net6.0\refint\CursosDeIdiomas.Domin.Services.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domin.Services\obj\Debug\net6.0\CursosDeIdiomas.Domin.Services.pdb
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domin.Services\obj\Debug\net6.0\ref\CursosDeIdiomas.Domin.Services.dll

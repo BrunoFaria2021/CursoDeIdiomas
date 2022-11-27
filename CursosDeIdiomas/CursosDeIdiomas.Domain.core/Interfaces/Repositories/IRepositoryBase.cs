@@ -1,6 +1,6 @@
 ﻿namespace CursosDeIdiomas.Domain.core.Interfaces.Repositories
 {
-    public internal interface IRepositoryBase<TEntity> where TEntity : class
+    public interface IRepositoryBase<TEntity> where TEntity : class
     {
         void Add(TEntity obj);
         void Update(TEntity obj);

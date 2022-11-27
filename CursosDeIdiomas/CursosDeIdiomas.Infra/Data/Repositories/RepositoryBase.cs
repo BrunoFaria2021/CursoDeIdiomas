@@ -14,7 +14,7 @@ namespace CursosDeIdiomas.Infra.Data.Repositories
         {
             try
             {
-                this.sqlContext.Set<TIntity>.add(obj);
+                this.sqlContext.Set<TIntity>().Add(obj);
                 this.sqlContext.SaveChanges();
 
             }
@@ -23,7 +23,7 @@ namespace CursosDeIdiomas.Infra.Data.Repositories
 
                 throw e;
             }
-       
+
         }
 
         public IEnumerable<TIntity> GetAll()
@@ -42,6 +42,7 @@ namespace CursosDeIdiomas.Infra.Data.Repositories
             {
                 this.sqlContext.Set<TIntity>().Remove(obj);
                 this.sqlContext.SaveChanges();
+            }
             catch (Exception e)
             {
 
@@ -57,11 +58,13 @@ namespace CursosDeIdiomas.Infra.Data.Repositories
 
                 this.sqlContext.Set<TIntity>().Update(obj);
                 this.sqlContext.SaveChanges();
+            }
 
             catch (Exception e)
             {
 
                 throw e;
             }
+        }
     }
 }

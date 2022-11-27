@@ -1,0 +1,12 @@
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\bin\Debug\net6.0\CursosDeIdiomas.Application.deps.json
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\bin\Debug\net6.0\CursosDeIdiomas.Application.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\bin\Debug\net6.0\CursosDeIdiomas.Application.pdb
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\obj\Debug\net6.0\CursosDeIdiomas.Application.csproj.AssemblyReference.cache
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\obj\Debug\net6.0\CursosDeIdiomas.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\obj\Debug\net6.0\CursosDeIdiomas.Application.AssemblyInfoInputs.cache
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\obj\Debug\net6.0\CursosDeIdiomas.Application.AssemblyInfo.cs
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\obj\Debug\net6.0\CursosDeIdiomas.Application.csproj.CoreCompileInputs.cache
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\obj\Debug\net6.0\CursosDeIdiomas.Application.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\obj\Debug\net6.0\refint\CursosDeIdiomas.Application.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\obj\Debug\net6.0\CursosDeIdiomas.Application.pdb
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\obj\Debug\net6.0\ref\CursosDeIdiomas.Application.dll

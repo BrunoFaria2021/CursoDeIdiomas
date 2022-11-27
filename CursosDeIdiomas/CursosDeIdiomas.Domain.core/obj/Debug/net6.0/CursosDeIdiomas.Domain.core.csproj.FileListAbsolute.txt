@@ -1,0 +1,15 @@
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.csproj.AssemblyReference.cache
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.GeneratedMSBuildEditorConfig.editorconfig
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.AssemblyInfoInputs.cache
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.AssemblyInfo.cs
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.csproj.CoreCompileInputs.cache
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\bin\Debug\net6.0\CursosDeIdiomas.Domain.core.deps.json
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\bin\Debug\net6.0\CursosDeIdiomas.Domain.core.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\bin\Debug\net6.0\CursosDeIdiomas.Domain.core.pdb
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\bin\Debug\net6.0\CursosDeIdiomas.Domain.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\bin\Debug\net6.0\CursosDeIdiomas.Domain.pdb
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.csproj.CopyComplete
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\refint\CursosDeIdiomas.Domain.core.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.pdb
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\ref\CursosDeIdiomas.Domain.core.dll
