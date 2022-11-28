@@ -15,3 +15,5 @@ D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug
 D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\refint\CursosDeIdiomas.Infra.dll
 D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.pdb
 D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\ref\CursosDeIdiomas.Infra.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Application.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Application.pdb
