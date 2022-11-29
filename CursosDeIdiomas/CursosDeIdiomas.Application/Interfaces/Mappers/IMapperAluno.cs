@@ -1,7 +1,7 @@
 ﻿using CursosDeIdiomas.Application.Dtos;
 using CursosDeIdiomas.Domain;
 
-namespace CursosDeIdiomas.Infra.CrossCutting.Interfaces
+namespace CursosDeIdiomas.Application.Interfaces.Mappers
 {
     public interface IMapperAluno
     {

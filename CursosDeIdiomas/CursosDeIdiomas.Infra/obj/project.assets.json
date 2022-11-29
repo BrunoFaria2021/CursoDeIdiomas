@@ -220,6 +220,9 @@
       "CursosDeIdiomas.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CursosDeIdiomas.Domain.core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CursosDeIdiomas.Application.dll": {}
         },

@@ -1,12 +1,7 @@
 ﻿using CursosDeIdiomas.Application.Dtos;
 using CursosDeIdiomas.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CursosDeIdiomas.Infra.CrossCutting.Interfaces
+namespace CursosDeIdiomas.Application.Interfaces.Mappers
 {
     public interface IMapperTurma
     {

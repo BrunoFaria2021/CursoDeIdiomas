@@ -10,3 +10,8 @@ D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\obj
 D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\obj\Debug\net6.0\refint\CursosDeIdiomas.Application.dll
 D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\obj\Debug\net6.0\CursosDeIdiomas.Application.pdb
 D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\obj\Debug\net6.0\ref\CursosDeIdiomas.Application.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\bin\Debug\net6.0\CursosDeIdiomas.Domain.core.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\bin\Debug\net6.0\CursosDeIdiomas.Domain.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\bin\Debug\net6.0\CursosDeIdiomas.Domain.core.pdb
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\bin\Debug\net6.0\CursosDeIdiomas.Domain.pdb
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\obj\Debug\net6.0\CursosDeIdiomas.Application.csproj.CopyComplete

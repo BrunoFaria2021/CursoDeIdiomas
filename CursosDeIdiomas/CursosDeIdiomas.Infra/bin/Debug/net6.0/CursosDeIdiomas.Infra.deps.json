@@ -133,6 +133,9 @@
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "CursosDeIdiomas.Application/1.0.0": {
+        "dependencies": {
+          "CursosDeIdiomas.Domain.core": "1.0.0"
+        },
         "runtime": {
           "CursosDeIdiomas.Application.dll": {}
         }

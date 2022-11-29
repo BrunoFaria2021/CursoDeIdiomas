@@ -1,13 +1,8 @@
 ﻿using CursosDeIdiomas.Application.Dtos;
+using CursosDeIdiomas.Application.Interfaces.Mappers;
 using CursosDeIdiomas.Domain;
-using CursosDeIdiomas.Infra.CrossCutting.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CursosDeIdiomas.Infra.CrossCutting.Mapper
+namespace CursosDeIdiomas.Application.Mappers
 {
     public class MapperTurma : IMapperTurma
     {
@@ -43,7 +38,7 @@ namespace CursosDeIdiomas.Infra.CrossCutting.Mapper
                 Id = turma.Id,
                 Numero = turma.Numero,
             });
-            return dtoTurmas;   
+            return dtoTurmas;
         }
     }
 }
