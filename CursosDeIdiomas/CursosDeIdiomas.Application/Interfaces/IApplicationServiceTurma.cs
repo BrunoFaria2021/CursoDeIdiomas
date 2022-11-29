@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CursosDeIdiomas.Application.Interfaces
 {
-    internal interface IApplicationServiceTurma
+    public interface IApplicationServiceTurma
     {
         public void Add(DtoTurma dtoTurma);
         public void Update(DtoTurma dtoTurma);

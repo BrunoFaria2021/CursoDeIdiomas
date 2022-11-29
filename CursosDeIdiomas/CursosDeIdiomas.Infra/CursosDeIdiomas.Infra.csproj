@@ -7,10 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CrossCutting\IOC\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.0.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
   </ItemGroup>
 
@@ -18,6 +16,7 @@
     <ProjectReference Include="..\CursosDeIdiomas.Application\CursosDeIdiomas.Application.csproj" />
     <ProjectReference Include="..\CursosDeIdiomas.Domain.core\CursosDeIdiomas.Domain.core.csproj" />
     <ProjectReference Include="..\CursosDeIdiomas.Domain\CursosDeIdiomas.Domain.csproj" />
+    <ProjectReference Include="..\CursosDeIdiomas.Domin.Services\CursosDeIdiomas.Domin.Services.csproj" />
   </ItemGroup>
 
 </Project>
