@@ -10,16 +10,16 @@ namespace CursosDeIdiomas.Application
     {
         private readonly IServiceAluno serviceAluno;
         private readonly IMapperAluno mapperAluno;
-        public ApplicationServiceAluno(IServiceAluno serviceAluno , IMapperAluno mapperAluno)
+        public ApplicationServiceAluno(IServiceAluno serviceAluno, IMapperAluno mapperAluno)
         {
-            this.serviceAluno = serviceAluno;    
+            this.serviceAluno = serviceAluno;
             this.mapperAluno = mapperAluno;
         }
         public void Add(DtoAluno dtoAluno)
         {
             Aluno aluno = this.mapperAluno.MapperDtoToEntity(dtoAluno);
             this.serviceAluno.Add(aluno);
-            
+
         }
 
         public IEnumerable<DtoAluno> GetAll()

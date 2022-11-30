@@ -19,3 +19,5 @@ D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug
 D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Application.pdb
 D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Domin.Services.dll
 D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Domin.Services.pdb
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Infra.runtimeconfig.json
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.genruntimeconfig.cache

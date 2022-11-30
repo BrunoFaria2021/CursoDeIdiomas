@@ -15,3 +15,5 @@ D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\bin
 D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\bin\Debug\net6.0\CursosDeIdiomas.Domain.core.pdb
 D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\bin\Debug\net6.0\CursosDeIdiomas.Domain.pdb
 D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\obj\Debug\net6.0\CursosDeIdiomas.Application.csproj.CopyComplete
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\bin\Debug\net6.0\CursosDeIdiomas.Application.runtimeconfig.json
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Application\obj\Debug\net6.0\CursosDeIdiomas.Application.genruntimeconfig.cache

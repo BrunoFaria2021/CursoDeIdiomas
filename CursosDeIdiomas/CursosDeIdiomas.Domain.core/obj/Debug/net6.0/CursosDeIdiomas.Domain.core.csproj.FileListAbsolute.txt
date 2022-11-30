@@ -13,3 +13,5 @@ D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj
 D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\refint\CursosDeIdiomas.Domain.core.dll
 D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.pdb
 D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\ref\CursosDeIdiomas.Domain.core.dll
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\bin\Debug\net6.0\CursosDeIdiomas.Domain.core.runtimeconfig.json
+D:\CursoDeIdiomas\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.genruntimeconfig.cache

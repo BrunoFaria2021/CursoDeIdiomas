@@ -20,7 +20,7 @@ namespace CursosDeIdiomas.Application
             this.serviceTurma = serviceTurma;
             this.mapperTurma = mapperTurma;
         }
-    
+
         public void Add(DtoTurma dtoTurma)
         {
             Turma turma = this.mapperTurma.MapperDtoToEntity(dtoTurma);
