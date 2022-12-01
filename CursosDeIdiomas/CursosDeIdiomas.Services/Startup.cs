@@ -11,6 +11,7 @@ using CursosDeIdiomas.Infra.Data.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Builder;
 
 namespace CursosDeIdiomas.Services
 {
@@ -23,7 +24,7 @@ namespace CursosDeIdiomas.Services
 
         public IConfiguration Configuration { get; }
 
-       
+
         public void ConfigureServices(IServiceCollection services)
         {
             var connection = Configuration["SqlConnection:SqlConnectionString"];
@@ -31,7 +32,7 @@ namespace CursosDeIdiomas.Services
             services.AddControllers();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             services.AddSwaggerGen(c =>
-           
+
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API CursosDeIdiomas", Version = "v1" });
 
@@ -43,7 +44,7 @@ namespace CursosDeIdiomas.Services
             builder.RegisterModule(new ModuleIOC());
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

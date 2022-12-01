@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CursosDeIdiomas.Application.Dtos
+﻿namespace CursosDeIdiomas.Application.Dtos
 {
     public class DtoAluno
     {

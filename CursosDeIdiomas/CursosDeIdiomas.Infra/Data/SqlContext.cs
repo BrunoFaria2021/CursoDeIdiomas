@@ -25,10 +25,10 @@ namespace CursosDeIdiomas.Infra.Data
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //Revisar antes de finalizar a entrega do projeto.
-           optionsBuilder.UseSqlServer("Data Source=ADMINISTADOR\\SQLEXPRESS;Initial Catalog=CursoDeIdiomas;User Id=ADMINISTADOR\\bruno;Integrated Security=SSPI;");
-        
-            
+
+            optionsBuilder.UseSqlServer("Data Source=ADMINISTADOR\\SQLEXPRESS;Initial Catalog=CursoDeIdiomas;User Id=ADMINISTADOR\\bruno;Integrated Security=SSPI;");
+
+
         }
 
         public SqlContext(DbContextOptions<SqlContext> options) : base(options) 
