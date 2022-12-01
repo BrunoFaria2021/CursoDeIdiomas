@@ -16,21 +16,20 @@ namespace CursosDeIdiomas.Services.Controllers
             this.applicationServiceTurma = applicationServiceTurma;
         }
 
-        // GET api/values
+       
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<IEnumerable<DtoTurma>> Get()
         {
             return Ok(applicationServiceTurma.GetAll());
         }
 
-        // GET api/values/5\
+        
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public ActionResult<DtoTurma> Get(int id)
         {
             return Ok(applicationServiceTurma.GetById(id));
         }
 
-        // POST api/values
         [HttpPost]
         public ActionResult Post([FromBody] DtoTurma dtoTurma)
         {
@@ -50,7 +49,7 @@ namespace CursosDeIdiomas.Services.Controllers
             }
         }
 
-        // PUT api/values/5
+       
         [HttpPut]
         public ActionResult Put([FromBody] DtoTurma dtoTurma)
         {
@@ -71,7 +70,6 @@ namespace CursosDeIdiomas.Services.Controllers
             }
         }
 
-        // DELETE api/values/5
         [HttpDelete()]
         public ActionResult Delete([FromBody] DtoTurma dtoTurma)
         {

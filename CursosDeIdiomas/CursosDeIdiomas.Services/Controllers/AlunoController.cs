@@ -20,6 +20,7 @@ namespace CursosDeIdiomas.Services.Controllers
         }
         
         [HttpGet]
+        [Route("BuscarAlunos")]
         public ActionResult<IEnumerable<Aluno>> GetAll()
         {
             return Ok(ApplicationServiceAluno.GetAll());

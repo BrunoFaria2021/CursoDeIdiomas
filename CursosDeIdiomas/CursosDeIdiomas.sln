@@ -11,17 +11,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{FA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{6F01B523-93AA-47D3-87A1-EE7E6CBD746A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursosDeIdiomas.Services", "CursosDeIdiomas.Services\CursosDeIdiomas.Services.csproj", "{484DD1A3-7453-46D4-BDEA-8CEDBC8FE86C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursosDeIdiomas.Services", "CursosDeIdiomas.Services\CursosDeIdiomas.Services.csproj", "{484DD1A3-7453-46D4-BDEA-8CEDBC8FE86C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{50D5C854-744F-4688-94A2-DDBAA10C44D1} = {50D5C854-744F-4688-94A2-DDBAA10C44D1}
+		{53C543E1-EE4E-48B6-8B55-644992B7571D} = {53C543E1-EE4E-48B6-8B55-644992B7571D}
+		{95B7B812-EB97-48A4-A680-B64E2ACB0130} = {95B7B812-EB97-48A4-A680-B64E2ACB0130}
+		{C6B6AF19-2D8C-45FD-94EE-A2BB6332AE6D} = {C6B6AF19-2D8C-45FD-94EE-A2BB6332AE6D}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursosDeIdiomas.Application", "CursosDeIdiomas.Application\CursosDeIdiomas.Application.csproj", "{C6B6AF19-2D8C-45FD-94EE-A2BB6332AE6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursosDeIdiomas.Application", "CursosDeIdiomas.Application\CursosDeIdiomas.Application.csproj", "{C6B6AF19-2D8C-45FD-94EE-A2BB6332AE6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursosDeIdiomas.Domain", "CursosDeIdiomas.Domain\CursosDeIdiomas.Domain.csproj", "{95B7B812-EB97-48A4-A680-B64E2ACB0130}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursosDeIdiomas.Domain", "CursosDeIdiomas.Domain\CursosDeIdiomas.Domain.csproj", "{95B7B812-EB97-48A4-A680-B64E2ACB0130}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursosDeIdiomas.Domain.core", "CursosDeIdiomas.Domain.core\CursosDeIdiomas.Domain.core.csproj", "{53C543E1-EE4E-48B6-8B55-644992B7571D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursosDeIdiomas.Domain.core", "CursosDeIdiomas.Domain.core\CursosDeIdiomas.Domain.core.csproj", "{53C543E1-EE4E-48B6-8B55-644992B7571D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursosDeIdiomas.Domin.Services", "CursosDeIdiomas.Domin.Services\CursosDeIdiomas.Domin.Services.csproj", "{50D5C854-744F-4688-94A2-DDBAA10C44D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursosDeIdiomas.Domin.Services", "CursosDeIdiomas.Domin.Services\CursosDeIdiomas.Domin.Services.csproj", "{50D5C854-744F-4688-94A2-DDBAA10C44D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursosDeIdiomas.Infra", "CursosDeIdiomas.Infra\CursosDeIdiomas.Infra.csproj", "{A6AC5D31-D71D-410B-9F2F-E34D943D4ECE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursosDeIdiomas.Infra", "CursosDeIdiomas.Infra\CursosDeIdiomas.Infra.csproj", "{A6AC5D31-D71D-410B-9F2F-E34D943D4ECE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

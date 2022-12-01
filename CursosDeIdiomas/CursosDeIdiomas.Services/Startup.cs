@@ -1,17 +1,9 @@
 ﻿using Autofac;
-using CursosDeIdiomas.Application.Interfaces;
-using CursosDeIdiomas.Application.Mappers;
-using CursosDeIdiomas.Application;
-using CursosDeIdiomas.Domain.core.Interfaces.Repositories;
-using CursosDeIdiomas.Domain.core.Interfaces.Services;
-using CursosDeIdiomas.Domin.Services;
 using CursosDeIdiomas.Infra.CrossCutting.IOC;
 using CursosDeIdiomas.Infra.Data;
-using CursosDeIdiomas.Infra.Data.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
-using Microsoft.AspNetCore.Builder;
 
 namespace CursosDeIdiomas.Services
 {
@@ -27,7 +19,7 @@ namespace CursosDeIdiomas.Services
 
         public void ConfigureServices(IServiceCollection services)
         {
-            var connection = Configuration["SqlConnection:SqlConnectionString"];
+            var connection = Configuration["SqlConnectionStrings"];
             services.AddDbContext<SqlContext>(options => options.UseSqlServer(connection));
             services.AddControllers();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);

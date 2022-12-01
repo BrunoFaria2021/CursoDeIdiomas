@@ -1,17 +1,11 @@
 ﻿using CursosDeIdiomas.Domain;
 using CursosDeIdiomas.Infra.Mappings;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using System.Reflection.Emit;
 
 namespace CursosDeIdiomas.Infra.Data
 {
     public class SqlContext : DbContext
     {
-        public SqlContext()
-        {
-
-        }
 
         public SqlContext(DbContextOptions options) : base(options)
         {
@@ -31,13 +25,13 @@ namespace CursosDeIdiomas.Infra.Data
 
         }
 
-        public SqlContext(DbContextOptions<SqlContext> options) : base(options) 
-        {
-        }
+        /*  public SqlContext(DbContextOptions<SqlContext> options) : base (options) 
+          {
+          }*/
         public DbSet<Aluno> Alunos { get; set; }
 
         public DbSet<Turma> Turmas { get; set; }
-        
+
 
 
     }
