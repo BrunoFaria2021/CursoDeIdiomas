@@ -74,10 +74,13 @@ namespace CursosDeIdiomas.Services.Controllers
 
         
         [HttpDelete()]
-        public ActionResult Delete([FromBody] DtoAluno dtoAluno)
+        [Route("Delete/{id}")]
+        public ActionResult Delete(int id)
         {
             try
             {
+                var dtoAluno = ApplicationServiceAluno.GetById(id);
+
                 if (dtoAluno == null)
                     return NotFound();
 

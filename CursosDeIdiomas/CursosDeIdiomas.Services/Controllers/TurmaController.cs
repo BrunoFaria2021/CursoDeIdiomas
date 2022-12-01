@@ -1,4 +1,5 @@
-﻿using CursosDeIdiomas.Application.Dtos;
+﻿using CursosDeIdiomas.Application;
+using CursosDeIdiomas.Application.Dtos;
 using CursosDeIdiomas.Application.Interfaces;
 using Microsoft.AspNetCore.Components.Routing;
 using Microsoft.AspNetCore.Mvc;
@@ -71,22 +72,26 @@ namespace CursosDeIdiomas.Services.Controllers
         }
 
         [HttpDelete()]
-        public ActionResult Delete([FromBody] DtoTurma dtoTurma)
+        [Route("Delete/{id}")]
+        public ActionResult Delete(int id)
         {
             try
             {
+                var dtoTurma = applicationServiceTurma.GetById(id);
+
+
                 if (dtoTurma == null)
                     return NotFound();
 
                 applicationServiceTurma.Remove(dtoTurma);
-                return Ok(" Turma Removida  com sucesso!");
-
+                return Ok("Turma Removida com sucesso!");
             }
             catch (Exception ex)
             {
 
                 throw ex;
             }
+
         }
     }
 }

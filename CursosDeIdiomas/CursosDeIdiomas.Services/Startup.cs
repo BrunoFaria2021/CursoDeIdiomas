@@ -20,7 +20,11 @@ namespace CursosDeIdiomas.Services
         public void ConfigureServices(IServiceCollection services)
         {
             var connection = Configuration["SqlConnectionStrings"];
-            services.AddDbContext<SqlContext>(options => options.UseSqlServer(connection));
+            services.AddDbContext<SqlContext>(options =>
+            {
+                options.UseSqlServer(connection);
+                options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+            });
             services.AddControllers();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             services.AddSwaggerGen(c =>

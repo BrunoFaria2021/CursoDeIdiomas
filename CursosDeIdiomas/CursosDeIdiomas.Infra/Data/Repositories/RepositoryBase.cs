@@ -1,4 +1,5 @@
 ﻿using CursosDeIdiomas.Domain.core.Interfaces.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 namespace CursosDeIdiomas.Infra.Data.Repositories
 {
@@ -33,14 +34,15 @@ namespace CursosDeIdiomas.Infra.Data.Repositories
 
         public TIntity GetById(int id)
         {
-            return this.sqlContext.Set<TIntity>().Find(id);
+            return this.sqlContext.Set<TIntity>().FirstOrDefault();
         }
 
         public void Remove(TIntity obj)
         {
             try
             {
-                this.sqlContext.Set<TIntity>().Remove(obj);
+
+                sqlContext.Entry(obj).State = EntityState.Deleted;
                 this.sqlContext.SaveChanges();
             }
             catch (Exception e)
