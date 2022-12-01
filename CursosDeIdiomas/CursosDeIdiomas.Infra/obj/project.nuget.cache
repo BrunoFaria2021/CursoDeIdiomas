@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "EQN9xm+ikqt/S6fP6ADNb3vqr5y7mSe7drH+hV2NQO0ijIMITrCjy/xOFm8RiP9zI6Du+YIpYci/NQ5pyu9R5g==",
+  "dgSpecHash": "dHWZ7rOyZm11/P8y1ECFmQqfeLJx1lDQLDkQhuTje399xlZl6oyHnG8HsNujfW/41x62Z8w8Ad9jEfmdMVFwPw==",
   "success": true,
   "projectFilePath": "D:\\CursoDeIdiomas\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Infra\\CursosDeIdiomas.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bruno\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\autofac.extensions.dependencyinjection\\6.0.0\\autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\bruno\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\bruno\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\bruno\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",

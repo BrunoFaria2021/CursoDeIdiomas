@@ -521,6 +521,7 @@
       },
       "CursosDeIdiomas.Application/1.0.0": {
         "dependencies": {
+          "AutoMapper": "12.0.0",
           "CursosDeIdiomas.Domain.core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
@@ -572,6 +573,7 @@
       },
       "CursosDeIdiomas.Infra/1.0.0": {
         "dependencies": {
+          "AutoMapper": "12.0.0",
           "Autofac": "6.0.0",
           "Autofac.Extensions.DependencyInjection": "6.0.0",
           "CursosDeIdiomas.Application": "1.0.0",

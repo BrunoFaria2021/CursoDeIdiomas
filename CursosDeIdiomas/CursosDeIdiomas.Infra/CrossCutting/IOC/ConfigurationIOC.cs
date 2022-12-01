@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using AutoMapper;
 using CursosDeIdiomas.Application;
 using CursosDeIdiomas.Application.Interfaces;
 using CursosDeIdiomas.Application.Mappers;
@@ -23,6 +24,16 @@ namespace CursosDeIdiomas.Infra.CrossCutting.IOC
             builder.RegisterType<RepositoryTurma>().As<IRepositoryTurma>();
             builder.RegisterType<MapperAluno>().As<IMapperAluno>();
             builder.RegisterType<MapperTurma>().As<IMapperTurma>();
+            builder.Register(ctx => new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile(new DtoToModelMappingAluno());
+                cfg.AddProfile(new ModelToDtoMappingAluno());
+                cfg.AddProfile(new DtoToModelMappingTurma());
+                cfg.AddProfile(new ModelToDtoMappingTurma());
+
+            }));
+
+            builder.Register(ctx => ctx.Resolve<MapperConfiguration>().CreateMapper()).As<IMapper>().InstancePerLifetimeScope();
             #endregion
         }
 
