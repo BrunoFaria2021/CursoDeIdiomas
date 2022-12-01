@@ -1,5 +1,4 @@
 ﻿using CursosDeIdiomas.Application.Dtos;
-using CursosDeIdiomas.Application.Interfaces.Mappers;
 using CursosDeIdiomas.Domain;
 
 namespace CursosDeIdiomas.Application.Mappers

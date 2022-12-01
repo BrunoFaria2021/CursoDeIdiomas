@@ -1,7 +1,7 @@
 ﻿using CursosDeIdiomas.Application.Dtos;
 using CursosDeIdiomas.Domain;
 
-namespace CursosDeIdiomas.Application.Interfaces.Mappers
+namespace CursosDeIdiomas.Application.Mappers
 {
     public interface IMapperTurma
     {

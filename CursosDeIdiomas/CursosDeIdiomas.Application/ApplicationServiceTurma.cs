@@ -1,6 +1,6 @@
 ﻿using CursosDeIdiomas.Application.Dtos;
 using CursosDeIdiomas.Application.Interfaces;
-using CursosDeIdiomas.Application.Interfaces.Mappers;
+using CursosDeIdiomas.Application.Mappers;
 using CursosDeIdiomas.Domain;
 using CursosDeIdiomas.Domain.core.Interfaces.Services;
 using System;

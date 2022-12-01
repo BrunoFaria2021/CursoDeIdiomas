@@ -13,8 +13,7 @@ namespace CursosDeIdiomas.Infra.Data
 
         }
 
-        public SqlContext(DbContextOptions options)
-            : base(options)
+        public SqlContext(DbContextOptions options) : base(options)
         {
         }
         protected override void OnModelCreating(ModelBuilder builder)
