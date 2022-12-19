@@ -5,6 +5,7 @@ using CursosDeIdiomas.Application.Mappers;
 using CursosDeIdiomas.Domain;
 using CursosDeIdiomas.Domain.core.Interfaces.Services;
 using CursosDeIdiomas.Domain.Entities;
+using System.Text.RegularExpressions;
 
 namespace CursosDeIdiomas.Application
 {
@@ -27,9 +28,20 @@ namespace CursosDeIdiomas.Application
         {
             Aluno aluno = this.mapperAluno.MapperDtoAddToEntity(dtoAluno);
 
+            if (!ValidarCpf(dtoAluno.Cpf))
+                throw new ArgumentException("CPF invalido");
+
             var existeAluno = serviceAluno.GetAlunoByCpf(aluno);
             if (existeAluno != null)
                 throw new ArgumentException("Já existe aluno com esse CPF");
+
+            var existeTurma = serviceTurma.GetById(dtoAluno.TurmaId);
+            if (existeTurma == null)
+                throw new ArgumentException("essa turma não existe");
+
+            var quantidadeTurmas = serviceMatricula.GetTurmaId(dtoAluno.TurmaId);
+            if (quantidadeTurmas.Count >= 5)
+                throw new ArgumentException("Não é possivel matricular mais alunos nessa turma!");
 
             var alunoCriado = this.serviceAluno.Add(aluno);
 
@@ -75,5 +87,16 @@ namespace CursosDeIdiomas.Application
 
 
         }
+
+        public bool ValidarCpf(string cpf)
+        {
+            string pattern = @"([0-9]{2}[.]?[0-9]{3}[.]?[0-9]{3}[/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[.]?[0-9]{3}[.]?[0-9]{3}[-]?[0-9]{2})";
+            bool match = Regex.IsMatch(cpf, pattern);
+
+            if (match)
+                return true;
+            return false;
+        }
+
     }
 }

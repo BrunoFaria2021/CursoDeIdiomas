@@ -1,9 +1,11 @@
-﻿using CursosDeIdiomas.Domain.core.Interfaces.Repositories;
+﻿using CursosDeIdiomas.Domain;
+using CursosDeIdiomas.Domain.core.Interfaces.Repositories;
+using CursosDeIdiomas.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace CursosDeIdiomas.Infra.Data.Repositories
 {
-    public class RepositoryBase<TIntity> : IRepositoryBase<TIntity> where TIntity : class
+    public class RepositoryBase<TIntity> : IRepositoryBase<TIntity> where TIntity : Base
     {
         private readonly SqlContext sqlContext;
         public RepositoryBase(SqlContext sqlContext)
@@ -35,7 +37,9 @@ namespace CursosDeIdiomas.Infra.Data.Repositories
 
         public TIntity GetById(int id)
         {
-            return this.sqlContext.Set<TIntity>().FirstOrDefault();
+            return sqlContext.Set<TIntity>()
+                                 .Where(x => x.Id == id)
+                                 .FirstOrDefault();
         }
 
         public void Remove(TIntity obj)

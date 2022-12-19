@@ -1,4 +1,6 @@
-﻿namespace CursosDeIdiomas.Application.Dtos
+﻿using System.Text.Json.Serialization;
+
+namespace CursosDeIdiomas.Application.Dtos
 {
     public class DtoTurma
     {

@@ -3,6 +3,7 @@ using CursosDeIdiomas.Application.Dtos;
 using CursosDeIdiomas.Application.Interfaces;
 using Microsoft.AspNetCore.Components.Routing;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 
 namespace CursosDeIdiomas.Services.Controllers
 {
@@ -39,14 +40,12 @@ namespace CursosDeIdiomas.Services.Controllers
                 if (dtoTurma == null)
                     return NotFound();
 
-
                 applicationServiceTurma.Add(dtoTurma);
                 return Ok(" Turma cadastrada com sucesso");
             }
             catch (Exception ex)
             {
-
-                throw ex;
+                return BadRequest(ex.Message);
             }
         }
 

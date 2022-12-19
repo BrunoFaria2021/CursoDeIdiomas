@@ -1,30 +1,41 @@
 ﻿using CursosDeIdiomas.Application.Dtos;
 using CursosDeIdiomas.Application.Interfaces;
 using CursosDeIdiomas.Application.Interfaces.Mappers;
-using CursosDeIdiomas.Application.Mappers;
-using CursosDeIdiomas.Domain;
 using CursosDeIdiomas.Domain.core.Interfaces.Services;
 using CursosDeIdiomas.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Reflection.Metadata.Ecma335;
 
 namespace CursosDeIdiomas.Application
 {
     public class ApplicationServiceMatricula : IApplicationServiceMatricula
     {
         private readonly IServiceMatricula serviceMatricula;
+        private readonly IServiceAluno serviceAluno;
+        private readonly IServiceTurma serviceTurma;
         private readonly IMapperMatricula mapperMatricula;
-        public ApplicationServiceMatricula(IServiceMatricula serviceMatricula, IMapperMatricula mapperMatricula)
+        public ApplicationServiceMatricula(IServiceMatricula serviceMatricula, IServiceAluno serviceAluno, IServiceTurma serviceTurma, IMapperMatricula mapperMatricula)
         {
             this.serviceMatricula = serviceMatricula;
+            this.serviceAluno = serviceAluno;
+            this.serviceTurma = serviceTurma;
             this.mapperMatricula = mapperMatricula;
         }
         public void Add(DtoMatricula dtoMatricula)
-
         {
+   
+            var existeAluno = serviceAluno.GetById(dtoMatricula.AlunoId);
+            if (existeAluno == null)
+                throw new ArgumentException("esse aluno não existe");
+
+            var existeTurma = serviceTurma.GetById(dtoMatricula.TurmaId);
+            if (existeTurma == null)
+                throw new ArgumentException("essa turma não existe");
+
+            var quantidadeTurmas = serviceMatricula.GetTurmaId(dtoMatricula.TurmaId);
+            if (quantidadeTurmas.Count >= 5)
+                throw new ArgumentException("Não é possivel matricular mais alunos nessa turma!");
+
+
             Matricula matricula = this.mapperMatricula.MapperDtoToEntity(dtoMatricula);
             this.serviceMatricula.Add(matricula);
         }

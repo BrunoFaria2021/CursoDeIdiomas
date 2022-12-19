@@ -1,4 +1,6 @@
-﻿namespace CursosDeIdiomas.Application.Dtos
+﻿using System.Text.Json.Serialization;
+
+namespace CursosDeIdiomas.Application.Dtos
 {
     public class DtoAluno
     {
@@ -6,6 +8,5 @@
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Cpf { get; set; }
-        public int TurmaId { get; set; }
     }
 }

@@ -24,7 +24,7 @@ namespace CursosDeIdiomas.Application.Mappers
                 Id = dtoAluno.Id,
                 Cpf = dtoAluno.Cpf,
                 Email = dtoAluno.Email,
-                Nome = dtoAluno.Nome
+                Nome = dtoAluno.Nome         
             };
             return aluno;
         }

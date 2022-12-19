@@ -14,15 +14,23 @@ namespace CursosDeIdiomas.Application
     public class ApplicationServiceTurma : IApplicationServiceTurma
     {
         private readonly IServiceTurma serviceTurma;
+        private readonly IServiceMatricula serviceMatricula;
         private readonly IMapperTurma mapperTurma;
-        public ApplicationServiceTurma(IServiceTurma serviceTurma, IMapperTurma mapperTurma)
+        public ApplicationServiceTurma(IServiceTurma serviceTurma,IServiceMatricula serviceMatricula, IMapperTurma mapperTurma)
         {
             this.serviceTurma = serviceTurma;
             this.mapperTurma = mapperTurma;
+            this.serviceMatricula = serviceMatricula;
         }
 
         public void Add(DtoTurma dtoTurma)
         {
+            if (dtoTurma.Numero.Length > 5)
+                throw new ArgumentException("O numero da turma deve ser um número e menor que 5 caracteres");
+
+            if (dtoTurma.AnoLetivo.Length > 4)
+                throw new ArgumentException("O ano letivo deve ser um número e menor que 4 caracteres");
+
             Turma turma = this.mapperTurma.MapperDtoToEntity(dtoTurma);
             this.serviceTurma.Add(turma);
         }
@@ -45,6 +53,10 @@ namespace CursosDeIdiomas.Application
 
         public void Remove(DtoTurma dtoTurma)
         {
+            var existeAluno = this.serviceMatricula.GetTurmaId(dtoTurma.Id);
+            if (existeAluno.Count > 0)
+                throw  new ArgumentException("Não e possivel excluir turma, quando se tem pelo menos um aluno matriculado!");
+
             Turma turma = this.mapperTurma.MapperDtoToEntity(dtoTurma);
             this.serviceTurma.Remove(turma);
         }

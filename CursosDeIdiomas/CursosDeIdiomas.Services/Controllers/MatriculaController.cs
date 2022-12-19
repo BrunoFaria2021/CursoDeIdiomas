@@ -47,8 +47,7 @@ namespace CursosDeIdiomas.Services.Controllers
             }
             catch (Exception ex)
             {
-
-                throw ex;
+                return BadRequest(ex.Message);
             }
 
 
