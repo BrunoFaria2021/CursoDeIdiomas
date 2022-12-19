@@ -34,7 +34,8 @@ Este projeto foi elaborado por meio do teste da empresa Marlin para vaga Estági
 
 ## ✔️ :wrench: Tecnologias / Metodologias utilizadas
  
-* CSharp
+* CSharp <img align="center" alt="Rafa-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
+
   
 * AspNetCore
  
