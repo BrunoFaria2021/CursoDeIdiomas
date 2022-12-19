@@ -5,7 +5,7 @@ namespace CursosDeIdiomas.Application.Mappers
 {
     public class MapperAluno : IMapperAluno
     {
-        IEnumerable<DtoAluno> dtoAlunos = new List<DtoAluno>();
+        //IEnumerable<DtoAluno> dtoAlunos = new List<DtoAluno>();
         public Aluno MapperDtoToEntity(DtoAluno dtoAluno)
         {
             Aluno aluno = new Aluno()
@@ -17,7 +17,17 @@ namespace CursosDeIdiomas.Application.Mappers
             };
             return aluno;
         }
-
+        public Aluno MapperDtoAddToEntity(DtoAlunoAdicionar dtoAluno)
+        {
+            Aluno aluno = new Aluno()
+            {
+                Id = dtoAluno.Id,
+                Cpf = dtoAluno.Cpf,
+                Email = dtoAluno.Email,
+                Nome = dtoAluno.Nome
+            };
+            return aluno;
+        }
         public DtoAluno MapperEntityToDto(Aluno aluno)
         {
             DtoAluno dtoAluno = new DtoAluno()

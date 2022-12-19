@@ -2383,23 +2383,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bruno\\.nuget\\packages\\": {},
+    "C:\\Users\\Bruno\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CursoDeIdiomas\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Application\\CursosDeIdiomas.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Application\\CursosDeIdiomas.Application.csproj",
       "projectName": "CursosDeIdiomas.Application",
-      "projectPath": "D:\\CursoDeIdiomas\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Application\\CursosDeIdiomas.Application.csproj",
-      "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-      "outputPath": "D:\\CursoDeIdiomas\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Application\\obj\\",
+      "projectPath": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Application\\CursosDeIdiomas.Application.csproj",
+      "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2415,8 +2415,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\CursoDeIdiomas\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\CursosDeIdiomas.Domain.core.csproj": {
-              "projectPath": "D:\\CursoDeIdiomas\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\CursosDeIdiomas.Domain.core.csproj"
+            "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\CursosDeIdiomas.Domain.core.csproj": {
+              "projectPath": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\CursosDeIdiomas.Domain.core.csproj"
             }
           }
         }

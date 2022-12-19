@@ -3,7 +3,7 @@
     public interface IRepositoryBase<TEntity> where TEntity : class
     {
 
-        void Add(TEntity obj);
+        TEntity Add(TEntity obj);
         void Update(TEntity obj);
         void Remove(TEntity obj);
         IEnumerable<TEntity> GetAll();

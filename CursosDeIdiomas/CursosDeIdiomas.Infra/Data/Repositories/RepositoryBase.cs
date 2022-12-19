@@ -11,13 +11,14 @@ namespace CursosDeIdiomas.Infra.Data.Repositories
             this.sqlContext = sqlContext;
         }
 
-        public void Add(TIntity obj)
+        public TIntity Add(TIntity obj)
         {
             try
             {
-                this.sqlContext.Set<TIntity>().Add(obj);
+                var tIntity = this.sqlContext.Set<TIntity>().Add(obj);
                 this.sqlContext.SaveChanges();
 
+                return tIntity.Entity;
             }
             catch (Exception e)
             {

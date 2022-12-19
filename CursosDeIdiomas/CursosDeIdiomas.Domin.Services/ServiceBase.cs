@@ -12,9 +12,9 @@ namespace CursosDeIdiomas.Domin.Services
             this.repository = repository;
         }
 
-        public void Add(TEntity obj)
+        public TEntity Add(TEntity obj)
         {
-           this.repository.Add(obj);
+           return this.repository.Add(obj);
         }
 
         public IEnumerable<TEntity> GetAll()

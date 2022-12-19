@@ -1,5 +1,4 @@
-﻿using CursosDeIdiomas.Application;
-using CursosDeIdiomas.Application.Dtos;
+﻿using CursosDeIdiomas.Application.Dtos;
 using CursosDeIdiomas.Application.Interfaces;
 using CursosDeIdiomas.Domain;
 using Microsoft.AspNetCore.Mvc;
@@ -35,7 +34,7 @@ namespace CursosDeIdiomas.Services.Controllers
 
         
         [HttpPost]
-        public ActionResult Post([FromBody] DtoAluno dtoAluno)
+        public ActionResult Post([FromBody] DtoAlunoAdicionar dtoAluno)
         {
             try
             {
@@ -48,7 +47,7 @@ namespace CursosDeIdiomas.Services.Controllers
             catch (Exception ex)
             {
 
-                throw ex;
+                return BadRequest(ex.Message);
             }
 
 

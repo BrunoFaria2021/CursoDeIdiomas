@@ -11,5 +11,10 @@ namespace CursosDeIdiomas.Domin.Services
         {
             this.repository = repository;
         }
+
+        public Aluno GetAlunoByCpf(Aluno Aluno)
+        {
+           return this.repository.GetAlunoByCPF(Aluno);
+        }
     }
 }

@@ -53,6 +53,30 @@ namespace CursosDeIdiomas.Infra.Migrations
                     b.ToTable("Aluno", (string)null);
                 });
 
+            modelBuilder.Entity("CursosDeIdiomas.Domain.Entities.Matricula", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<long>("AlunoId")
+                        .HasColumnType("BIGINT");
+
+                    b.Property<long>("TurmaId")
+                        .HasColumnType("BIGINT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AlunoId");
+
+                    b.HasIndex("TurmaId");
+
+                    b.ToTable("Matriculas", (string)null);
+                });
+
             modelBuilder.Entity("CursosDeIdiomas.Domain.Turma", b =>
                 {
                     b.Property<long>("Id")
@@ -77,6 +101,25 @@ namespace CursosDeIdiomas.Infra.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Turma", (string)null);
+                });
+
+            modelBuilder.Entity("CursosDeIdiomas.Domain.Entities.Matricula", b =>
+                {
+                    b.HasOne("CursosDeIdiomas.Domain.Aluno", "Aluno")
+                        .WithMany()
+                        .HasForeignKey("AlunoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CursosDeIdiomas.Domain.Turma", "Turma")
+                        .WithMany()
+                        .HasForeignKey("TurmaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Aluno");
+
+                    b.Navigation("Turma");
                 });
 #pragma warning restore 612, 618
         }

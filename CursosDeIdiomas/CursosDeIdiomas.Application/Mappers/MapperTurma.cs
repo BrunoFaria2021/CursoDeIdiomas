@@ -5,7 +5,7 @@ namespace CursosDeIdiomas.Application.Mappers
 {
     public class MapperTurma : IMapperTurma
     {
-        IEnumerable<DtoTurma> dtoTurmas = new List<DtoTurma>();
+        //IEnumerable<DtoTurma> dtoTurmas = new List<DtoTurma>();
         public Turma MapperDtoToEntity(DtoTurma dtoturma)
         {
             Turma turma = new Turma()

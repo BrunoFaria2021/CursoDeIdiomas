@@ -1,4 +1,5 @@
 ﻿using CursosDeIdiomas.Domain;
+using CursosDeIdiomas.Domain.Entities;
 using CursosDeIdiomas.Infra.Mappings;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,11 +17,13 @@ namespace CursosDeIdiomas.Infra.Data
             builder.ApplyConfigurationsFromAssembly(GetType().Assembly);
             builder.ApplyConfiguration(new MapAluno());
             builder.ApplyConfiguration(new MapTurma());
+            builder.ApplyConfiguration(new MapMatricula());
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
 
-            optionsBuilder.UseSqlServer("Data Source=ADMINISTADOR\\SQLEXPRESS;Initial Catalog=CursoDeIdiomas;User Id=ADMINISTADOR\\bruno;Integrated Security=SSPI;");
+            optionsBuilder.UseSqlServer("Data Source=ARES-27\\SQLEXPRESS;Initial Catalog=CursoDeIdiomas;User Id=ARES-27\\bruno;Integrated Security=SSPI;");
+
 
 
         }
@@ -31,6 +34,7 @@ namespace CursosDeIdiomas.Infra.Data
         public DbSet<Aluno> Alunos { get; set; }
 
         public DbSet<Turma> Turmas { get; set; }
+        public DbSet<Matricula> Matriculas { get; set; }
 
 
 

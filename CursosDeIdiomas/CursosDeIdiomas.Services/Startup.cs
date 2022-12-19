@@ -26,7 +26,6 @@ namespace CursosDeIdiomas.Services
                 options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
             });
             services.AddControllers();
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             services.AddSwaggerGen(c =>
 
             {
