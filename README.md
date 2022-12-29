@@ -1,7 +1,7 @@
 <h1 align="center">:file_cabinet: Web API CursoDeIdiomas README.md</h1>
 
 ## :memo: Descrição
-Este projeto foi elaborado por meio do teste da empresa Marlin para vaga Estágio .NET C#, onde foi pedido para criar UM Web API para uma empresa que oferece cursos de idiomas, dentro desse projeto foi criado uma base de dados usando o SQL Server Managmente Studio com as tabelas mencionadas a baixo, ainda na criação foi elaborado total de 3 CRUD sitados abaixo em CRUD Métodos API, dentro desse projeto tambem foi criada algumas regras de negócio.
+Este projeto foi elaborado por meio do teste da empresa Marlin para vaga Estágio .NET C#, onde foi pedido para criar UM Web API para uma empresa que oferece cursos de idiomas, dentro desse projeto foi criado uma base de dados usando o SQL Server Managmente Studio com as tabelas mencionadas a baixo, ainda na criação foi elaborado total de 3 CRUD citados abaixo em CRUD Métodos API, dentro desse projeto também  foi criada algumas regras de negócio.
 
 ## :books: Funcionalidades
 👨‍💻💻 Tabelas do Banco
