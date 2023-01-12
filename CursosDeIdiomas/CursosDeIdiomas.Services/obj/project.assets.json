@@ -2468,11 +2468,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Services\\CursosDeIdiomas.Services.csproj",
+      "projectUniqueName": "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Services\\CursosDeIdiomas.Services.csproj",
       "projectName": "CursosDeIdiomas.Services",
-      "projectPath": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Services\\CursosDeIdiomas.Services.csproj",
+      "projectPath": "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Services\\CursosDeIdiomas.Services.csproj",
       "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Services\\obj\\",
+      "outputPath": "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2494,8 +2494,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Infra\\CursosDeIdiomas.Infra.csproj": {
-              "projectPath": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Infra\\CursosDeIdiomas.Infra.csproj"
+            "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Infra\\CursosDeIdiomas.Infra.csproj": {
+              "projectPath": "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Infra\\CursosDeIdiomas.Infra.csproj"
             }
           }
         }

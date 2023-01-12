@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Application\\CursosDeIdiomas.Application.csproj": {}
+    "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Application\\CursosDeIdiomas.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Application\\CursosDeIdiomas.Application.csproj": {
+    "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Application\\CursosDeIdiomas.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Application\\CursosDeIdiomas.Application.csproj",
+        "projectUniqueName": "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Application\\CursosDeIdiomas.Application.csproj",
         "projectName": "CursosDeIdiomas.Application",
-        "projectPath": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Application\\CursosDeIdiomas.Application.csproj",
+        "projectPath": "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Application\\CursosDeIdiomas.Application.csproj",
         "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Application\\obj\\",
+        "outputPath": "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\CursosDeIdiomas.Domain.core.csproj": {
-                "projectPath": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\CursosDeIdiomas.Domain.core.csproj"
+              "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\CursosDeIdiomas.Domain.core.csproj": {
+                "projectPath": "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\CursosDeIdiomas.Domain.core.csproj"
               }
             }
           }
@@ -114,14 +114,14 @@
         }
       }
     },
-    "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\CursosDeIdiomas.Domain.core.csproj": {
+    "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\CursosDeIdiomas.Domain.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\CursosDeIdiomas.Domain.core.csproj",
+        "projectUniqueName": "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\CursosDeIdiomas.Domain.core.csproj",
         "projectName": "CursosDeIdiomas.Domain.core",
-        "projectPath": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\CursosDeIdiomas.Domain.core.csproj",
+        "projectPath": "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\CursosDeIdiomas.Domain.core.csproj",
         "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\obj\\",
+        "outputPath": "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain.core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -143,8 +143,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain\\CursosDeIdiomas.Domain.csproj": {
-                "projectPath": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain\\CursosDeIdiomas.Domain.csproj"
+              "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain\\CursosDeIdiomas.Domain.csproj": {
+                "projectPath": "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain\\CursosDeIdiomas.Domain.csproj"
               }
             }
           }
@@ -224,14 +224,14 @@
         }
       }
     },
-    "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain\\CursosDeIdiomas.Domain.csproj": {
+    "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain\\CursosDeIdiomas.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain\\CursosDeIdiomas.Domain.csproj",
+        "projectUniqueName": "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain\\CursosDeIdiomas.Domain.csproj",
         "projectName": "CursosDeIdiomas.Domain",
-        "projectPath": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain\\CursosDeIdiomas.Domain.csproj",
+        "projectPath": "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain\\CursosDeIdiomas.Domain.csproj",
         "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain\\obj\\",
+        "outputPath": "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

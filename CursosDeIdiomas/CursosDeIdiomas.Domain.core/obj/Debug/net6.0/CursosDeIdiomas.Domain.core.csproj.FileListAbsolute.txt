@@ -32,3 +32,20 @@ C:\Users\Bruno\Desktop\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.cor
 C:\Users\Bruno\Desktop\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.pdb
 C:\Users\Bruno\Desktop\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.genruntimeconfig.cache
 C:\Users\Bruno\Desktop\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\ref\CursosDeIdiomas.Domain.core.dll
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\bin\Debug\net6.0\CursosDeIdiomas.Domain.core.deps.json
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\bin\Debug\net6.0\CursosDeIdiomas.Domain.core.runtimeconfig.json
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\bin\Debug\net6.0\CursosDeIdiomas.Domain.core.dll
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\bin\Debug\net6.0\CursosDeIdiomas.Domain.core.pdb
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\bin\Debug\net6.0\CursosDeIdiomas.Domain.dll
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\bin\Debug\net6.0\CursosDeIdiomas.Domain.pdb
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.csproj.AssemblyReference.cache
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.AssemblyInfoInputs.cache
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.AssemblyInfo.cs
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.csproj.CoreCompileInputs.cache
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.csproj.CopyComplete
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.dll
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\refint\CursosDeIdiomas.Domain.core.dll
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.pdb
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\CursosDeIdiomas.Domain.core.genruntimeconfig.cache
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Domain.core\obj\Debug\net6.0\ref\CursosDeIdiomas.Domain.core.dll

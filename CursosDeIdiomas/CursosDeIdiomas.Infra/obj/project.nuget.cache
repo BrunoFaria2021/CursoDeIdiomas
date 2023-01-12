@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v1QkDf9tKXu46Qo89u3w0idKMmxELiVLCNDdpr9UqfAMnIkvsjMqFm7KZKWdRrXC3CZEzCoUTO7uBf1YgTx8iQ==",
+  "dgSpecHash": "m7X9gAhxHZDxI+vUxvkKDjMovEudWZtX5j7sWsDOk40/bhCnIW6W+girtExl6yQ/9awbhL6/gIpNK5QvTIfNWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bruno\\Desktop\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Infra\\CursosDeIdiomas.Infra.csproj",
+  "projectFilePath": "D:\\Projetos C#\\Projeto Marlin\\CursoDeIdiomas\\CursosDeIdiomas\\CursosDeIdiomas.Infra\\CursosDeIdiomas.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bruno\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\autofac.extensions.dependencyinjection\\6.0.0\\autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",

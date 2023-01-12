@@ -44,3 +44,26 @@ C:\Users\Bruno\Desktop\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\
 C:\Users\Bruno\Desktop\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.pdb
 C:\Users\Bruno\Desktop\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.genruntimeconfig.cache
 C:\Users\Bruno\Desktop\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\ref\CursosDeIdiomas.Infra.dll
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Infra.deps.json
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Infra.runtimeconfig.json
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Infra.dll
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Infra.pdb
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Application.dll
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Domain.core.dll
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Domain.dll
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Domin.Services.dll
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Application.pdb
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Domain.core.pdb
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Domain.pdb
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\bin\Debug\net6.0\CursosDeIdiomas.Domin.Services.pdb
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.csproj.AssemblyReference.cache
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.AssemblyInfoInputs.cache
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.AssemblyInfo.cs
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.csproj.CoreCompileInputs.cache
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.csproj.CopyComplete
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.dll
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\refint\CursosDeIdiomas.Infra.dll
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.pdb
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\CursosDeIdiomas.Infra.genruntimeconfig.cache
+D:\Projetos C#\Projeto Marlin\CursoDeIdiomas\CursosDeIdiomas\CursosDeIdiomas.Infra\obj\Debug\net6.0\ref\CursosDeIdiomas.Infra.dll
