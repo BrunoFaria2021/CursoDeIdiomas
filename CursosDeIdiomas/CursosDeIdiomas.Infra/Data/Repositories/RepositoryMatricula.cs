@@ -13,12 +13,19 @@ namespace CursosDeIdiomas.Infra.Data.Repositories
             this.sqlContext = sqlContext;
         }
 
+        public Matricula GetByAlunoIdAndTurmaId(int alunoId, int turmaId)
+        {
+            return sqlContext.Matriculas.Where(m => m.AlunoId == alunoId && m.TurmaId == turmaId).FirstOrDefault();
+        }
+
+
         public List<Matricula> GetTurmaId(int TurmaId)
         {
             return sqlContext.Matriculas
                                 .Where(t => t.TurmaId == TurmaId)
                                 .ToList();
         }
+       
     }
 }
 

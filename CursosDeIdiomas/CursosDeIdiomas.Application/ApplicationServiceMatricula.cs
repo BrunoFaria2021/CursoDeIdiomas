@@ -31,9 +31,15 @@ namespace CursosDeIdiomas.Application
             if (existeTurma == null)
                 throw new ArgumentException("essa turma não existe");
 
-            var quantidadeTurmas = serviceMatricula.GetTurmaId(dtoMatricula.TurmaId);
+             var quantidadeTurmas = serviceMatricula.GetTurmaId(dtoMatricula.TurmaId);
             if (quantidadeTurmas.Count >= 5)
                 throw new ArgumentException("Não é possivel matricular mais alunos nessa turma!");
+
+            var existingMatricula = serviceMatricula.GetByAlunoIdAndTurmaId(dtoMatricula.AlunoId, dtoMatricula.TurmaId);
+            if (existingMatricula != null)
+            {
+                throw new ArgumentException("Já existe uma matrícula para esse aluno nessa turma");
+            }
 
 
             Matricula matricula = this.mapperMatricula.MapperDtoToEntity(dtoMatricula);

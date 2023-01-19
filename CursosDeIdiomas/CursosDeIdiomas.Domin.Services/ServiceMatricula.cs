@@ -14,6 +14,11 @@ namespace CursosDeIdiomas.Domin.Services
            
         }
 
+        public Matricula GetByAlunoIdAndTurmaId(int alunoId, int turmaId)
+        {
+            return this.repository.GetByAlunoIdAndTurmaId(alunoId, turmaId);
+        }
+
         public List<Matricula> GetTurmaId(int TurmaId)
         {
             return this.repository.GetTurmaId(TurmaId);
