@@ -22,16 +22,23 @@ Este projeto foi elaborado por meio do teste da empresa Marlin para vaga Estági
 
 👨‍💻 Regra de negócios
 
-✔️Aluno não pode ser cadastrado repetido (validação pelo CPF);
-
-✔️ No momento de cadastrar um aluno, deve-se informar pelo menos uma turma que ele irá cursar;  
-
-✔️O mesmo aluno pode ser matriculado em várias turmas diferentes, porém a Matrícula não pode ser repetida na mesma turma;   
-
-✔️ Uma turma não pode ter mais de 5 alunos;  
-
-✔️Turma não pode ser excluída se possuir alunos;
-
+Fiz recentemente umas atualizações nas regras de negocio. 
+Confirmei que essas regras estão sendo implementadas corretamente e testadas.
+  
+  
+✔️ 1-Aluno não pode ser cadastrado repetido (validação pelo CPF)
+  
+  
+✔️ 2-No momento de cadastrar um aluno, deve-se informar pelo menos uma turma que ele irá cursar;
+  
+  
+✔️ 3-O mesmo aluno pode ser matriculado em várias turmas diferentes, porém a Matrícula não pode ser repetida na mesma turma;
+  
+  
+✔️ 4-Uma turma não pode ter mais de 5 alunos;
+  
+  
+✔️ 5-Turma não pode ser excluída se possuir alunos;
 ## ✔️ :wrench: Tecnologias / Metodologias utilizadas
  
 * CSharp <img align="center" alt="Rafa-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
@@ -82,14 +89,9 @@ para encerra use este comando para da um update.-> dotnet ef --startup-project .
 ```
 
 ## :soon: Implementação futura
-* O que será implementado na próxima sprint?
-Fiz recentemente umas atualizações nas regras de negocio. 
-Confirmei que essas regras estão sendo implementadas corretamente e testadas.
-1-Aluno não pode ser cadastrado repetido (validação pelo CPF)
-2-No momento de cadastrar um aluno, deve-se informar pelo menos uma turma que ele irá cursar;
-3-O mesmo aluno pode ser matriculado em várias turmas diferentes, porém a Matrícula não pode ser repetida na mesma turma;
-4-Uma turma não pode ter mais de 5 alunos;
-5-Turma não pode ser excluída se possuir alunos;
+
+  
+
 
 
 ## :handshake: Colaboradores
